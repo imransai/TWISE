@@ -32,7 +32,6 @@ Data
 VKITTI Sparse Lidar| KITTI 64R Lidar Sparse
 ---  | ---
 (a)  |  (b)
---- | ---
 ![](Images/vkitti_sparsesample.JPG) | ![](Images/kitti_sparsesample.JPG)
 
 As we claim our method works well on boundaries, we also evaluate on VKITTI 2.0, a synthetic dataset with clean and dense GT depth at depth discontinuities. The VKITTI $2.0$, created by the Unity game engine, contains $5$ different camera locations ($15^o$ left, $15^o$ right, $30^o$ left, $30^o$ right, clone) in addition to $5$ different driving sequences. Additionally, there are stereo image pairs for each camera location. For training and testing, we only use the clone (forward facing camera) with stereo image pairs. For VKITTI training, $2$k training images were created from driving sequences $01$, $02$, $06$, and $018$ respectively. For testing, we use sequence $020$ at the left stereo camera, and choose every other frames, with total $420$ images.
