@@ -21,9 +21,11 @@ Our best pre-trained model on KITTI is obtained with Multi-Stack HourGlass Netwo
 
 # Evaluation
 We also provide an evaluation script to evaluate the model on 1000 validation images of KITTI. Download the selected images folder from [KITTI's website] (http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) and extract it in Data folder. The Data folder should look like this:
+'''
 Data
   |__depth_selection
-  
+'''
+
   To evaluate the model, just extract the model provided in tar.gz format in the pretrained_models dir and run `python evaluate.py`. It evaluates the model based the metrics MAE, RMSE, TMAE, TRMSE etc.
 
 # Virtual KITTI 
@@ -33,6 +35,9 @@ VKITTI Sparse Lidar| KITTI 64R Lidar Sparse
 ---  | ---
 (a)  |  (b)
 ![](Images/vkitti_sparsesample.JPG) | ![](Images/kitti_sparsesample.JPG)
+VKITTI SemiDense GT | KITTI SemiDense GT
+(c)  |  (d)
+![](Images/vkitti_semidensegt.JPG) | ![](Images/kitti_semidensegt.JPG)
 
 As we claim our method works well on boundaries, we also evaluate on VKITTI 2.0, a synthetic dataset with clean and dense GT depth at depth discontinuities. The VKITTI $2.0$, created by the Unity game engine, contains $5$ different camera locations ($15^o$ left, $15^o$ right, $30^o$ left, $30^o$ right, clone) in addition to $5$ different driving sequences. Additionally, there are stereo image pairs for each camera location. For training and testing, we only use the clone (forward facing camera) with stereo image pairs. For VKITTI training, $2$k training images were created from driving sequences $01$, $02$, $06$, and $018$ respectively. For testing, we use sequence $020$ at the left stereo camera, and choose every other frames, with total $420$ images.
 We subsample the dense GT depth in azimuth-elevation space to simulate LiDAR-like pattern as sparse inputs. 
