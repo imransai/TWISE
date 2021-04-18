@@ -48,6 +48,24 @@ We subsample the dense GT depth in azimuth-elevation space to simulate LiDAR-lik
 Further, we created semi-dense VKITTI to simulate outlier noise similar to that existing in real KITTI dataset (See Figure 2 (b)). 
 We follow the similar procedure as followed by Uhrig et al when creating semi-dense GT. Refer to Fig.2 for a comparison between semi-dense VKITTI and semi-dense KITTI.
 
+The VKITTI directory structure is in the following format:
+```
+.
+VKITTI_2.0
+  |__sampled_depth
+     |__Scene01
+        |__clone
+           |__frames
+              |__64R_sampled
+                 |__Camera_0
+                 |__Camera_1
+              |__semi_dense
+     |__Scene02        
+     |__...
+  |__vkitti_2.0.3_depth
+  |__vkitti_2.0.3_rgb
+```
+The VKITTI sampled data can be found from this [link](https://drive.google.com/file/d/16WJh_0PkySp5GQHvclwC7v_hEwT9F866/view?usp=sharing).
 
 # Citations
 If you use our method and code in your work, please cite the following:
