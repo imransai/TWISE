@@ -5,7 +5,7 @@ Code for CVPR 2021 Submission of our paper 'Depth Completion with Twin Surface E
 # Overview
 The following is a teaser result of our proposed algorithm:
 ![Image](/Images/twise_teaser.png)
-
+The figure describes how our depth completion algorithm can input LiDAR data and image (a), and extrapolate the estimates of foreground depth $d_1$ (b) and background depth $d_2$ (c), along with a weight $\sigma$ (e). Fusing all three leads to the completed depth (d). The foreground-background depth difference (f) $d_2-d_1$ is small except at depth discontinuities.
 # Dependencies
 
 # Dataset Generation
