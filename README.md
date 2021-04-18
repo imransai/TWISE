@@ -30,6 +30,7 @@ Data
 ## Modelling outliers with Semi-Dense GT
 
 VKITTI Sparse Lidar| KITTI 64R Lidar Sparse
+   (a)              |    (b)
 --- | ---
 ![](Images/vkitti_sparsesample.JPG) | ![](Images/kitti_sparsesample.JPG)
 
