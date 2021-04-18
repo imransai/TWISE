@@ -4,7 +4,7 @@ Code for CVPR 2021 Submission of our paper 'Depth Completion with Twin Surface E
 
 # Overview
 The following is a teaser result of our proposed algorithm:
-![Image](/images/twise_teaser.png)
+![Image](/Images/twise_teaser.png)
 
 # Dependencies
 
