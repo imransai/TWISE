@@ -30,8 +30,10 @@ Data
 ```
 
 
-  To evaluate the model, just extract the model provided in tar.gz format in the pretrained_models dir and run 
+  To evaluate the model, just extract the model provided in tar.gz format in the pretrained_models dir and run:
+  
   python evaluate.py --data-folder datapath_dir
+  
   where datapath_dir is the folder where Data directory is.  It evaluates the model based the metrics MAE, RMSE, TMAE, TRMSE etc.
 
 # Virtual KITTI 
