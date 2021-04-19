@@ -32,16 +32,6 @@ parser.add_argument('-w',
                     type=int,
                     metavar='N',
                     help='number of data loading workers (default: 4)')
-parser.add_argument('--start-epoch',
-                    default=0,
-                    type=int,
-                    metavar='N',
-                    help='manual epoch number (useful on restarts)')
-parser.add_argument('-b',
-                    '--batch-size',
-                    default=4,
-                    type=int,
-                    help='mini-batch size (default: 1)')
 
 parser.add_argument('--data-folder',
                     default='/home/imransai/Documents/Depth_SuperResolution/TWISE_Public/TWISE',
@@ -54,10 +44,6 @@ parser.add_argument('-i',
                     default= 'rgbd',
                     choices=input_options,
                     help='input: | '.join(input_options))
-parser.add_argument('--jitter',
-                    type=float,
-                    default=0.1,
-                    help='color jitter for images')
 parser.add_argument(
     '--rank-metric',
     type=str,
