@@ -30,7 +30,7 @@ Data
 ```
 
 
-  To evaluate the model, just extract the model provided in tar.gz format in the pretrained_models dir and run:
+  To evaluate the model, just extract the model provided in tar.gz format in the pretrained_models dir and in Codes directory, run:
   
   python evaluate.py --data-folder datapath_dir
   
