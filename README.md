@@ -1,12 +1,7 @@
 # Twin-Surface-Extrapolation-TWISE-
 Code for CVPR 2021 Submission of our paper 'Depth Completion with Twin Surface Extrapolation at Occlusion Boundaries' available at
 [paper.](https://arxiv.org/abs/2104.02253)
-
-'''Correction
-There is a correction of Equation 8 of our CVPR paper. The corrected equation is given below:
-   L(c1, c2, c3) = \sum_{i=1}^{N}(ALE_{\gamma}(c_{1i}) + RALE_{\gamma}{c_{2i}} + F(c_{3i}))
-   where c1 -> hat{d_1}, c2 -> hat{d_2}, and c3 -> \sigma respectively. 
-   
+  
   
 # Overview
 The following is a teaser result of our proposed algorithm:
@@ -76,6 +71,13 @@ VKITTI_2.0
   |__vkitti_2.0.3_rgb
 ```
 The VKITTI sampled data can be found from this [link](https://drive.google.com/file/d/16WJh_0PkySp5GQHvclwC7v_hEwT9F866/view?usp=sharing).
+
+# Correction to our main CVPR paper
+
+There is a correction of Equation 8 of our CVPR paper. The corrected equation is given below:
+   
+   L(c1, c2, c3) = \sum_{i=1}^{N}(ALE_{\gamma}(c_{1i}) + RALE_{\gamma}{c_{2i}} + F(c_{3i}))
+   where c1 -> hat{d_1}, c2 -> hat{d_2}, and c3 -> \sigma respectively. 
 
 # Citations
 If you use our method and code in your work, please cite the following:
