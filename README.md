@@ -1,8 +1,8 @@
 # Twin-Surface-Extrapolation-TWISE-
 Code for CVPR 2021 Submission of our paper 'Depth Completion with Twin Surface Extrapolation at Occlusion Boundaries' available at
 [paper.](https://arxiv.org/abs/2104.02253)
-
-   where c1  hat{d_1}, c2 -> hat{d_2}, and c3 -> \sigma respectively. 
+   L(c1, c2, c3) = \sum_{i=1}^{N}(ALE_{\gamma}(c_{1i}) + RALE_{\gamma}{c_{2i}} + F(c_{3i}))
+   where c1 -> hat{d_1}, c2 -> hat{d_2}, and c3 -> \sigma respectively. 
 # Overview
 The following is a teaser result of our proposed algorithm:
 ![Image](/Images/twise_teaser.png)
