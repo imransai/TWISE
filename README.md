@@ -2,6 +2,8 @@
 Code for CVPR 2021 Submission of our paper 'Depth Completion with Twin Surface Extrapolation at Occlusion Boundaries' available at
 [paper.](https://arxiv.org/abs/2104.02253)
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 # Overview
 The following is a teaser result of our proposed algorithm:
 ![Image](/Images/twise_teaser.png)
