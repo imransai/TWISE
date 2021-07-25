@@ -77,7 +77,7 @@ The VKITTI sampled data can be found from this [link](https://drive.google.com/f
 There is a correction of Equation 8 of our CVPR paper. The corrected equation is given below:
    
    L(c1, c2, c3) = \sum_{i=1}^{N}(ALE_{\gamma}(c_{1i}) + RALE_{\gamma}{c_{2i}} + F(s(c_{3i})))
-   where c1 -> hat{d_1}, c2 -> hat{d_2}, and s(c3) is the sigmoid that -> \sigma respectively. 
+   where c1 -> hat{d_1}, c2 -> hat{d_2}, and s(c3) is the sigmoid that -> \sigma respectively. We have made the correction in the arxiv version of the paper.  
 
 # Citations
 If you use our method and code in your work, please cite the following:
